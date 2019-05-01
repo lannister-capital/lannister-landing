@@ -1,15 +1,15 @@
 {
-  "name": "grace",
+  "name": "lannister-landing",
   "version": "1.0.0",
-  "description": "Grace Template",
-  "author": "Pasquale Vitiello <pasqualevitiello@gmail.com>",
+  "description": "Lannister landing page",
+  "author": "Tiago Alves <alvesjtiago@gmail.com>",
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/pasqualevitiello/grace.git"
+    "url": "https://github.com/lannister-capital/lannister-landing.git"
   },
   "bugs": {
-    "url": "https://bitbucket.org/pasqualevitiello/grace/issues"
+    "url": "https://github.com/lannister-capital/lannister-landing/issues"
   },
   "scripts": {
     "clean": "rimraf dist/{css/*,js/*,images/*}",
@@ -27,8 +27,7 @@
     "watch:css": "onchange \"src/scss\" -- run-s build:css",
     "watch:js": "onchange \"src/js\" -- run-s build:js",
     "watch:images": "onchange \"src/images\" -- run-s build:images",
-    "watch": "run-p serve watch:*",
-    "postinstall": "run-s build watch"
+    "watch": "run-p serve watch:*"
   },
   "devDependencies": {
     "autoprefixer": "^9.0.1",
@@ -49,6 +48,6 @@
     "stylelint": "^9.4.0",
     "uglify-es": "^3.3.10"
   },
-  "homepage": "https://bitbucket.org/pasqualevitiello/grace#readme",
+  "homepage": "https://lannister.capital",
   "main": ".eslintrc.js"
 }
