@@ -46,6 +46,7 @@
     "postcss-cli": "^6.0.0",
     "rimraf": "^2.5.4",
     "stylelint": "^9.4.0",
+    "tar": "^4.4.8",
     "uglify-es": "^3.3.10"
   },
   "homepage": "https://lannister.capital",
