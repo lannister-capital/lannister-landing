@@ -1,0 +1,12 @@
+{
+    "name": "Lannister",
+    "start_url": "https://lannister.capital",
+    "description": "The simplest wealth manager and financial planner to measure capital growth, organize holdings and track your progress.",
+    "icons": [
+        {
+            "src": "https://lannister.capital/dist/images/manifest-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
