@@ -9,7 +9,7 @@
     /* global ScrollReveal */
     const sr = window.sr = ScrollReveal()
 
-    sr.reveal('.hero-title, .hero-paragraph, .hero-cta', {
+    sr.reveal('.hero-title, .hero-paragraph, .hero-download-btn, .hero-cta', {
       duration: 600,
       distance: '20px',
       easing: 'cubic-bezier(0.5, -0.01, 0, 1.005)',
