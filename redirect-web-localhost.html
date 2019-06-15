@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lannister</title>
+    <script>
+      function getParameterByName(name) {
+        const match = RegExp("[?&]" + name + "=([^&]*)").exec(
+          window.location.search
+        );
+        return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+      }
+      var authResponse = getParameterByName("authResponse");
+      window.location = "http://localhost:3000?authResponse=" + authResponse;
+    </script>
+  </head>
+
+  <body></body>
+</html>
